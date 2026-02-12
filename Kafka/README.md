@@ -32,7 +32,7 @@ Kafka/
 
 ### Prerequisites
 - Node.js v14+
-- Apache Kafka running on `10.61.206.56:9092`
+- Apache Kafka running on `<private_ip>:9092`
 
 ### Install Dependencies
 
@@ -168,7 +168,7 @@ Each message displays:
 
 ### Kafka Connection
 ```javascript
-brokers: ['10.61.206.56:9092']
+brokers: ['<private_ip>:9092']
 ```
 
 ### Topic Configuration
@@ -253,7 +253,7 @@ npm list kafkajs
 
 - Kafka version: `^2.2.4`
 - Node.js: v24+
-- Broker IP: `10.61.206.56:9092`
+- Broker IP: `<private_ip>:9092`
 - Topic: `rider-updates` (2 partitions)
 
 ---

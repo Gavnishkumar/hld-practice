@@ -2,7 +2,7 @@ const {kafka} = require('./kafka').kafka
 
 const kafka = new Kafka({
   clientId: 'my-app-consumer',
-  brokers: ['10.61.206.56:9092']
+  brokers: ['<private_ip>:9092']
 })
 
 const init = async () => {
