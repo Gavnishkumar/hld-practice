@@ -183,23 +183,6 @@ brokers: ['<private_ip>:9092']
 - **Group-1**: `my-app-consumer1`, `my-app-consumer2`
 - **Group-2**: `my-app-consumer3`
 
----
-
-## 🛠️ Troubleshooting
-
-### Issue: Connection Timeout
-**Solution:** Ensure Kafka broker is running on `10.61.206.56:9092`
-
-### Issue: "Group is rebalancing"
-**Solution:** Restart consumers and wait 10 seconds between each start
-
-### Issue: Messages going to same partition
-**Solution:** Use correct keywords: `north` (partition 0) or `south` (partition 1)
-
-### Issue: ClientId conflicts
-**Solution:** Each consumer must have a unique `clientId`
-
----
 
 ## 📚 Learning Outcomes
 
